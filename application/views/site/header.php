@@ -17,6 +17,7 @@
     <ul class="navbar-nav mr-auto">
       <?php 
       //Boucle du menu
+      //Boucle du menu !!
       foreach($menu_p as $menu_p):
         $menu_s = $this->site_model->menu_s($menu_p->id);
           if(!empty($menu_s))
